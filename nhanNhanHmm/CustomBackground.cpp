@@ -6,9 +6,14 @@ Class used manage how backgrounds should be draw.
 
 #include "CustomBackground.h"
 
-CustomBackground::CustomBackground(const LoaderParams * pParams) :SDLGameObject(pParams)
+CustomBackground::CustomBackground(int x, int y, float width, float height, std::string textureID) :
+SDLGameObject( x, y, width, height, textureID)
 {
 	m_currentFrame = 0;
+}
+
+void CustomBackground::update() {
+    SDLGameObject::update();
 }
 
 void CustomBackground::draw()

@@ -1,7 +1,8 @@
 #include "Enemy.h"
 #include "InputHandler.h"
 
-Enemy::Enemy(const LoaderParams* pParams):SDLGameObject(pParams)
+Enemy::Enemy(int x, int y, float width, float height, std::string textureID) :
+SDLGameObject( x, y, width, height, textureID)
 {
 	m_currentFrame = 0;
 }

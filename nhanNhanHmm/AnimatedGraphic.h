@@ -5,7 +5,7 @@
 class AnimatedGraphic : public SDLGameObject
 {
 public:
-	AnimatedGraphic(const LoaderParams* pParams, int animSpeed, int numFrames);
+	AnimatedGraphic(int x, int y, float width, float height, std::string textureID, int animSpeed, int numFrames);
 	virtual void draw();
 	virtual void update();
 	virtual void clean();

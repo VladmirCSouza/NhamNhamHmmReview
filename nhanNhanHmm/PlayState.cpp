@@ -65,19 +65,12 @@ bool PlayState::onEnter()
 	if (!TheTextureManager::Instance()->load("assets/hud/pushMeter.png", HUD_PUSH_METER_ID, TheGame::Instance()->getRenderer()))
 		return false;
 
-	GameObject* background = new CustomBackground(new LoaderParams(0, 0, 1024, 768, BG_ID));
-	GameObject* hudBg = new CustomBackground(new LoaderParams(10, 10, 1005, 32, BG_HUD_ID));
-	hudLevelMeter = new HUDMeters(new LoaderParams(320, 16, 256, 20, HUD_LEVEL_METER_ID));
-	hudPushMeter = new HUDMeters(new LoaderParams(704, 16, 0, 20, HUD_PUSH_METER_ID));
-	GameObject* buttonPause = new MenuButton(new LoaderParams(20, 15, 20, 22, BTN_PAUSE_ID), s_playToPause);
-	GameObject* astronaut = new AnimatedGraphic(new LoaderParams(896, 640, 64, 64, ASTRONAUT_ID), 1, 4);
-
-	m_gameObjects.push_back(background);
-	m_gameObjects.push_back(hudBg);
-	m_gameObjects.push_back(hudLevelMeter);
-	m_gameObjects.push_back(hudPushMeter);
-	m_gameObjects.push_back(buttonPause);
-	m_gameObjects.push_back(astronaut);
+//    m_gameObjects.push_back(CustomBackground(0, 0, 1024, 768, BG_ID));
+//    m_gameObjects.push_back(CustomBackground(10, 10, 1005, 32, BG_HUD_ID));
+//    m_gameObjects.push_back(HUDMeters(320, 16, 256, 20, HUD_LEVEL_METER_ID));
+//    m_gameObjects.push_back(HUDMeters(704, 16, 0, 20, HUD_PUSH_METER_ID));
+//    m_gameObjects.push_back(MenuButton(20, 15, 20, 22, BTN_PAUSE_ID, s_playToPause));
+//    m_gameObjects.push_back(AnimatedGraphic(896, 640, 64, 64, ASTRONAUT_ID, 1, 4));
 
 	std::cout << "entering PlayState\n";
 
@@ -101,17 +94,17 @@ bool PlayState::onEnter()
 
 			//Use the initial load to instantiate all possible aliens objects
 			//That way we don't need to instantiate objects during the game
-			m_aliensType01[y][x] = new Alien(new LoaderParams(posX, posY, 64, 64, ALIEN_BLUE_ID));
-			m_gameObjects.push_back(m_aliensType01[y][x]);
-
-			m_aliensType02[y][x] = new Alien(new LoaderParams(posX, posY, 64, 64, ALIEN_GREEN_ID));
-			m_gameObjects.push_back(m_aliensType02[y][x]);
-
-			m_aliensType03[y][x] = new Alien(new LoaderParams(posX, posY, 64, 64, ALIEN_ORANGE_ID));
-			m_gameObjects.push_back(m_aliensType03[y][x]);
-
-			m_aliensType04[y][x] = new Alien(new LoaderParams(posX, posY, 64, 64, ALIEN_RED_ID));
-			m_gameObjects.push_back(m_aliensType04[y][x]);
+//            m_aliensType01[y][x] = new Alien(posX, posY, 64, 64, ALIEN_BLUE_ID);
+//            m_gameObjects.push_back(m_aliensType01[y][x]);
+//
+//            m_aliensType02[y][x] = new Alien(posX, posY, 64, 64, ALIEN_GREEN_ID);
+//            m_gameObjects.push_back(m_aliensType02[y][x]);
+//
+//            m_aliensType03[y][x] = new Alien(posX, posY, 64, 64, ALIEN_ORANGE_ID);
+//            m_gameObjects.push_back(m_aliensType03[y][x]);
+//
+//            m_aliensType04[y][x] = new Alien(posX, posY, 64, 64, ALIEN_RED_ID);
+//            m_gameObjects.push_back(m_aliensType04[y][x]);
 		}
 	}
 
@@ -131,10 +124,10 @@ void PlayState::update()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		if (m_gameObjects[i]->isDead)
-			m_gameObjects[i]->clean();
-		else
-			m_gameObjects[i]->update();
+//        if (m_gameObjects[i].isDead)
+            m_gameObjects[i].clean();
+//        else
+            m_gameObjects[i].update();
 	}
 
 	//Get the mouse position and converts to board coordinates
@@ -249,7 +242,7 @@ void PlayState::render()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->draw();
+        m_gameObjects[i].draw();
 	}
 }
 
@@ -266,7 +259,7 @@ bool PlayState::onExit()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->clean();
+        m_gameObjects[i].clean();
 	}
 
 	m_gameObjects.clear();

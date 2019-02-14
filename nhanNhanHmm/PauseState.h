@@ -2,7 +2,7 @@
 #define __PauseState__
 
 #include "GameState.h"
-#include "GameObject.h"
+#include "SDLGameObject.h"
 #include "Game.h"
 #include "MenuButton.h"
 #include <vector>
@@ -22,7 +22,7 @@ private:
 
 	static const std::string s_pauseID;
 
-	std::vector<GameObject*> m_gameObjects;
+	std::vector<SDLGameObject> m_gameObjects;
 
 	static void s_pauseToMain();
 	static void s_resumeToPlay();

@@ -2,7 +2,7 @@
 #define __PlayState__
 
 #include "GameState.h"
-#include "GameObject.h"
+#include "SDLGameObject.h"
 #include "Game.h"
 #include "MenuButton.h"
 #include <vector>
@@ -40,7 +40,7 @@ private:
 
 	static const std::string s_playID;
 
-	std::vector<GameObject*> m_gameObjects;
+	std::vector<SDLGameObject> m_gameObjects;
 
 	bool mouseOver(Vector2D* mousePos, int targetPosX, int targetPosY);
 

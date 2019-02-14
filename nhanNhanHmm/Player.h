@@ -5,7 +5,7 @@
 class Player : public SDLGameObject
 {
 public:
-	Player(const LoaderParams* pParams);
+	Player(int x, int y, float width, float height, std::string textureID);
 
 	virtual void draw();
 	virtual void update();

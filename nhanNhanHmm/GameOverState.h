@@ -2,7 +2,7 @@
 #define __GameOverState__
 
 #include "GameState.h"
-#include "GameObject.h"
+#include "SDLGameObject.h"
 #include "Game.h"
 #include "MenuButton.h"
 #include <vector>
@@ -21,7 +21,7 @@ public:
 private:
 	static const std::string s_gameOverID;
 
-	std::vector<GameObject*> m_gameObjects;
+	std::vector<SDLGameObject> m_gameObjects;
 
 	static void s_gameOverToMain();
 	static void s_restartPlay();

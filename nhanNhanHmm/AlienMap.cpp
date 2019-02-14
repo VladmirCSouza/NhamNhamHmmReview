@@ -17,7 +17,7 @@ Use it if you need to recreate the stage.
 */
 void AlienMap::init()
 {
-	srand(time(NULL));
+	srand((unsigned)time(NULL));
 	for (int row = 0; row < numRows; row++)
 	{
 		for (int col = 0; col < numCols; col++)

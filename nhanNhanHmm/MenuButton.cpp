@@ -8,7 +8,8 @@ Class responsable for all the buttons used on menus, hud and pause.
 #include "InputHandler.h"
 #include "SoundManager.h"
 
-MenuButton::MenuButton(const LoaderParams * pParams, void (*callback)()):SDLGameObject(pParams),m_callback(callback)
+MenuButton::MenuButton(int x, int y, float width, float height, std::string textureID, void (*callback)()) :
+SDLGameObject( x, y, width, height, textureID), m_callback(callback)
 {
 	m_currentFrame = MOUSE_OUT; //start at fram 0
 }

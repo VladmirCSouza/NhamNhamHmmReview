@@ -24,7 +24,7 @@ class Alien :
 {
 public:
 
-	Alien(const LoaderParams* pParams);
+	Alien(int x, int y, float width, float height, std::string textureID);
 	virtual void draw();
 	virtual void update();
 	virtual void clean();

@@ -22,8 +22,8 @@ void PauseState::update()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		if (m_gameObjects[i] != nullptr)
-			m_gameObjects[i]->update();
+		//if (m_gameObjects[i] != NULL)
+            m_gameObjects[i].update();
 	}
 }
 
@@ -34,7 +34,7 @@ void PauseState::render()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->draw();
+        m_gameObjects[i].draw();
 	}
 }
 
@@ -56,13 +56,9 @@ bool PauseState::onEnter()
 	if (!TheTextureManager::Instance()->load("assets/buttons/btnMainMenu.png", BTN_MAIN_MENU_ID, TheGame::Instance()->getRenderer()))
 		return false;
 
-	GameObject* bgPause = new CustomBackground(new LoaderParams(0, 0, 1024, 768, BG_PAUSE_ID));
-	GameObject* buttonResume = new MenuButton(new LoaderParams(433, 120, 64, 64, BTN_RESUME_ID), s_resumeToPlay);
-	GameObject* buttonMainMenu = new MenuButton(new LoaderParams(527, 120, 64, 64, BTN_MAIN_MENU_ID), s_pauseToMain);
-
-	m_gameObjects.push_back(bgPause);
-	m_gameObjects.push_back(buttonResume);
-	m_gameObjects.push_back(buttonMainMenu);
+//    m_gameObjects.push_back(CustomBackground(0, 0, 1024, 768, BG_PAUSE_ID));
+//    m_gameObjects.push_back(MenuButton(433, 120, 64, 64, BTN_RESUME_ID, s_resumeToPlay));
+//    m_gameObjects.push_back(MenuButton(527, 120, 64, 64, BTN_MAIN_MENU_ID, s_pauseToMain));
 
 	std::cout << "entering PauseState\n";
 
@@ -80,8 +76,8 @@ bool PauseState::onExit()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->clean();
-		m_gameObjects[i] = nullptr;
+        m_gameObjects[i].clean();
+		//m_gameObjects[i] = nullptr;
 	}
 
 	m_gameObjects.clear();

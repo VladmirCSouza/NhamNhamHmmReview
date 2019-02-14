@@ -6,7 +6,8 @@ Class that controls the sprite from hud level and push.
 
 #include "HUDMeters.h"
 
-HUDMeters::HUDMeters(const LoaderParams * pParams) : SDLGameObject(pParams)
+HUDMeters::HUDMeters(int x, int y, float width, float height, std::string textureID) :
+                     SDLGameObject( x, y, width, height, textureID)
 {
 	m_currentFrame = 0;
 }

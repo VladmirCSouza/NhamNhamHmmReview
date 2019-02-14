@@ -10,7 +10,8 @@ This class is mainly controled on PlayState.cpp
 #include "InputHandler.h"
 #include "Game.h"
 
-Alien::Alien(const LoaderParams* pParams) : SDLGameObject(pParams)
+Alien::Alien(int x, int y, float width, float height, std::string textureID) :
+SDLGameObject( x, y, width, height, textureID)
 {
 	m_currtState = IDLE;
 	m_prevState = m_currtState;

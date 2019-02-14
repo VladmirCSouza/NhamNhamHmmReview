@@ -26,8 +26,8 @@ void GameOverState::update()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		if (m_gameObjects[i] != nullptr)
-			m_gameObjects[i]->update();
+//        if (m_gameObjects[i] != nullptr)
+            m_gameObjects[i].update();
 	}
 }
 
@@ -38,7 +38,7 @@ void GameOverState::render()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->draw();
+        m_gameObjects[i].draw();
 	}
 }
 
@@ -62,14 +62,10 @@ bool GameOverState::onEnter()
 		return false;
 	if (!TheTextureManager::Instance()->load("assets/buttons/btnMainMenu.png", BTN_MAIN_MENU_ID, TheGame::Instance()->getRenderer()))
 		return false;
-	
-	GameObject* background = new CustomBackground(new LoaderParams(0, 0, 1024, 768, BG_ID));
-	GameObject* buttonRestart = new MenuButton(new LoaderParams(433, 140, 64, 64, BTN_RESTART_ID), s_restartPlay);
-	GameObject* buttonMainMenu = new MenuButton(new LoaderParams(527, 140, 64, 64, BTN_MAIN_MENU_ID), s_gameOverToMain);
 
-	m_gameObjects.push_back(background);
-	m_gameObjects.push_back(buttonRestart);
-	m_gameObjects.push_back(buttonMainMenu);
+//    m_gameObjects.push_back(CustomBackground(0, 0, 1024, 768, BG_ID));
+//    m_gameObjects.push_back(MenuButton(433, 140, 64, 64, BTN_RESTART_ID, s_restartPlay));
+//    m_gameObjects.push_back(MenuButton(527, 140, 64, 64, BTN_MAIN_MENU_ID, s_gameOverToMain));
 
 	std::cout << "Entering GameOverState\n";
 	
@@ -90,8 +86,8 @@ bool GameOverState::onExit()
 	
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->clean();
-		m_gameObjects[i] = nullptr;
+        m_gameObjects[i].clean();
+//        m_gameObjects[i] = nullptr;
 	}
 
 	m_gameObjects.clear();

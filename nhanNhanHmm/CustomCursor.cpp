@@ -15,6 +15,8 @@ void CustomCursor::update()
 
 void CustomCursor::clean()
 {
+    s_pInstance = nullptr;
+    delete s_pInstance;
 	SDLGameObject::clean();
 }
 

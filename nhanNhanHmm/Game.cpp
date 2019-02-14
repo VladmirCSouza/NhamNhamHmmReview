@@ -61,7 +61,7 @@ bool Game::init(const char* title, int xpos, int ypos, int height, int width, bo
 	m_pGameStateMachine = new GameStateMachine();
 	m_pGameStateMachine->changeState(new MenuState());
 	
-	m_gameObjects.push_back(TheCustomCursor::Instance());
+//    m_gameObjects.push_back(TheCustomCursor::Instance());
 
 	TheSoundManager::Instance()->load("assets/audio/bgMenu.wav", "bgMenu", SOUND_MUSIC);
 	TheSoundManager::Instance()->load("assets/audio/btnClick.wav", "btnClick", SOUND_SFX);

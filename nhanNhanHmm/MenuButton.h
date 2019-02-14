@@ -5,7 +5,7 @@
 class MenuButton : public SDLGameObject
 {
 public:
-	MenuButton(const LoaderParams* pParams, void (*callback)());
+	MenuButton(int x, int y, float width, float height, std::string textureID, void (*callback)());
 
 	virtual void draw();
 	virtual void update();

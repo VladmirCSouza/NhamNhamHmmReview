@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/TextureManager.cpp \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/TextureManager.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/TextureManager.cpp \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/TextureManager.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_stdinc.h \

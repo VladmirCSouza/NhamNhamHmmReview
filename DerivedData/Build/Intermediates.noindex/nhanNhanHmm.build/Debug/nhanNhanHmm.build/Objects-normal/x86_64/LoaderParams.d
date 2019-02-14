@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/LoaderParams.cpp
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/LoaderParams.cpp

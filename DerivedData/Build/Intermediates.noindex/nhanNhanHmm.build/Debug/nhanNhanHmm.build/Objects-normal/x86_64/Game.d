@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/Game.cpp \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/Game.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/Game.cpp \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/Game.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_stdinc.h \
@@ -47,18 +47,18 @@ dependencies: \
   /Library/Frameworks/SDL2.framework/Headers/SDL_system.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_timer.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_version.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/TextureManager.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/TextureManager.h \
   /Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/GameObject.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/LoaderParams.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/Enemy.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/SDLGameObject.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/Vector2D.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/GameStateMachine.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/GameState.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/InputHandler.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/MenuState.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/MenuButton.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/CustomCursor.h \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/SoundManager.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/GameObject.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/LoaderParams.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/Enemy.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/SDLGameObject.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/Vector2D.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/GameStateMachine.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/GameState.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/InputHandler.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/MenuState.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/MenuButton.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/CustomCursor.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/SoundManager.h \
   /Library/Frameworks/SDL2_mixer.framework/Headers/SDL_mixer.h

@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/GameState.cpp
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/GameState.cpp

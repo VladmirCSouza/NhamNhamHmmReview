@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/SoundManager.cpp \
-  /Users/vladmir.souza/Documents/Estudo/NhanNhanHmm/nhanNhanHmm/nhanNhanHmm/SoundManager.h \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/SoundManager.cpp \
+  /Users/vladmir.souza/Documents/Estudo/NhamNhamHmmReview/nhanNhanHmm/SoundManager.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_stdinc.h \

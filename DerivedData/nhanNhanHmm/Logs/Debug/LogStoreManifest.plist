@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>01F5B5A1-1CE7-45C8-B384-2C807A3EDBFF</key>
+		<key>083277F6-2D69-42DE-892E-B40D09B84D28</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>01F5B5A1-1CE7-45C8-B384-2C807A3EDBFF.xcactivitylog</string>
+			<string>083277F6-2D69-42DE-892E-B40D09B84D28.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,42 +27,13 @@
 			<key>signature</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>timeStartedRecording</key>
-			<real>571770604.63767803</real>
+			<real>571834970.93502104</real>
 			<key>timeStoppedRecording</key>
-			<real>571770648.56250596</real>
+			<real>571834977.66170394</real>
 			<key>title</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>uniqueIdentifier</key>
-			<string>01F5B5A1-1CE7-45C8-B384-2C807A3EDBFF</string>
-		</dict>
-		<key>074E8906-541F-46A0-90D2-017844BE6A3E</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>074E8906-541F-46A0-90D2-017844BE6A3E.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>nhanNhanHmm project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>nhanNhanHmm</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>timeStartedRecording</key>
-			<real>571770772.39472997</real>
-			<key>timeStoppedRecording</key>
-			<real>571770852.04929399</real>
-			<key>title</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>074E8906-541F-46A0-90D2-017844BE6A3E</string>
+			<string>083277F6-2D69-42DE-892E-B40D09B84D28</string>
 		</dict>
 		<key>1476B6EE-2A7F-4215-8A6C-F73B518F57EF</key>
 		<dict>
@@ -92,122 +63,6 @@
 			<string>Debug nhanNhanHmm</string>
 			<key>uniqueIdentifier</key>
 			<string>1476B6EE-2A7F-4215-8A6C-F73B518F57EF</string>
-		</dict>
-		<key>3043742C-4EB2-4F61-8F0A-192C82A01E83</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>3043742C-4EB2-4F61-8F0A-192C82A01E83.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>nhanNhanHmm project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>nhanNhanHmm</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>timeStartedRecording</key>
-			<real>571770536.39366496</real>
-			<key>timeStoppedRecording</key>
-			<real>571770563.79495895</real>
-			<key>title</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>3043742C-4EB2-4F61-8F0A-192C82A01E83</string>
-		</dict>
-		<key>C23932B1-55FA-45AE-B398-58725EC8BC2F</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>C23932B1-55FA-45AE-B398-58725EC8BC2F.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>nhanNhanHmm project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>nhanNhanHmm</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>timeStartedRecording</key>
-			<real>571770707.58152103</real>
-			<key>timeStoppedRecording</key>
-			<real>571770731.582762</real>
-			<key>title</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>C23932B1-55FA-45AE-B398-58725EC8BC2F</string>
-		</dict>
-		<key>D4648A71-B83C-4EF1-BABF-D0D77F9FAB38</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>D4648A71-B83C-4EF1-BABF-D0D77F9FAB38.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>nhanNhanHmm project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>nhanNhanHmm</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>timeStartedRecording</key>
-			<real>571770682.86565304</real>
-			<key>timeStoppedRecording</key>
-			<real>571770689.03801095</real>
-			<key>title</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>D4648A71-B83C-4EF1-BABF-D0D77F9FAB38</string>
-		</dict>
-		<key>E657EE28-7FE0-4D20-80D6-7C7F0FC1CC43</key>
-		<dict>
-			<key>className</key>
-			<string>DBGConsoleLog</string>
-			<key>documentTypeString</key>
-			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
-			<key>fileName</key>
-			<string>E657EE28-7FE0-4D20-80D6-7C7F0FC1CC43.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
-			<key>schemeIdentifier-containerName</key>
-			<string>nhanNhanHmm project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>nhanNhanHmm</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>timeStartedRecording</key>
-			<real>571770963.81278503</real>
-			<key>timeStoppedRecording</key>
-			<real>571770974.45125496</real>
-			<key>title</key>
-			<string>Debug nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>E657EE28-7FE0-4D20-80D6-7C7F0FC1CC43</string>
 		</dict>
 	</dict>
 </dict>

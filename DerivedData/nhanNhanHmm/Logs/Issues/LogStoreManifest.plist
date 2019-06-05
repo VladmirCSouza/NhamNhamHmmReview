@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>42CB441F-CE43-4423-A241-F80D23CAC2C6</key>
+		<key>C5DD8E0E-CAFD-4062-AD63-7F8E10A7D860</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,42 +15,22 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>42CB441F-CE43-4423-A241-F80D23CAC2C6.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
+			<string>C5DD8E0E-CAFD-4062-AD63-7F8E10A7D860.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
 			<key>signature</key>
-			<string>nhanNhanHmm-apvpudvoktbtsrdgfxqojmzoajal</string>
+			<string>nhanNhanHmm-adyhrpjszzuvklcdsghjdyvwuywx</string>
 			<key>timeStartedRecording</key>
-			<real>571770707.11131799</real>
+			<real>581465227.47702503</real>
 			<key>timeStoppedRecording</key>
-			<real>571770707.57690096</real>
+			<real>581465229.87191296</real>
 			<key>title</key>
 			<string>Build target nhanNhanHmm</string>
 			<key>uniqueIdentifier</key>
-			<string>42CB441F-CE43-4423-A241-F80D23CAC2C6</string>
-		</dict>
-		<key>489227A8-F59D-4B6D-829F-680C46A561EA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
-			<key>fileName</key>
-			<string>489227A8-F59D-4B6D-829F-680C46A561EA.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>W</string>
-			<key>signature</key>
-			<string>nhanNhanHmm-aibvkvhvcjzmkifohwhqlprjnpfi</string>
-			<key>timeStartedRecording</key>
-			<real>571834968.70355499</real>
-			<key>timeStoppedRecording</key>
-			<real>571834970.930058</real>
-			<key>title</key>
-			<string>Build target nhanNhanHmm</string>
-			<key>uniqueIdentifier</key>
-			<string>489227A8-F59D-4B6D-829F-680C46A561EA</string>
+			<string>C5DD8E0E-CAFD-4062-AD63-7F8E10A7D860</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

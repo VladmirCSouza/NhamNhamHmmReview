@@ -2,7 +2,7 @@
 #define __CreditsState__
 
 #include "GameState.h"
-#include "GameObject.h"
+#include "SDLGameObject.h"
 #include "Game.h"
 #include "MenuButton.h"
 #include <vector>
@@ -21,7 +21,7 @@ public:
 private:
 	static const std::string s_creditsID;
 
-	std::vector<GameObject*> m_gameObjects;
+	std::vector<SDLGameObject> m_gameObjects;
 
 	//callback functions for menu items
 	static void s_creditsToMenu();

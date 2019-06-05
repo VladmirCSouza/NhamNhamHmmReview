@@ -7,12 +7,12 @@ Class that controls all the objects of the game.
 #include "SDLGameObject.h"
 #include "Game.h"
 
-SDLGameObject::SDLGameObject(const LoaderParams * pParams):
-	GameObject(pParams),m_position(pParams->getX(),pParams->getY()),m_velocity(0,0),m_acceleration(0,0)
+SDLGameObject::SDLGameObject(int x, int y, float width, float height, std::string textureID):
+m_position(x,y),m_velocity(0,0),m_acceleration(0,0)
 {
-	m_width = pParams->getWidth();
-	m_height = pParams->getHeight();
-	m_textureID = pParams->getTextureID();
+	m_width = width;
+	m_height = height;
+	m_textureID = textureID;
 
 	m_currentRow = 1;
 	m_currentFrame = 1;
@@ -31,7 +31,7 @@ void SDLGameObject::update()
 
 void SDLGameObject::clean()
 {
-	
+    delete this;
 }
 
 void SDLGameObject::setWidth(int value)

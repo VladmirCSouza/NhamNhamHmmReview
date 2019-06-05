@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>logFormatVersion</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>083277F6-2D69-42DE-892E-B40D09B84D28</key>
+		<key>20844802-69A9-4FFF-9CD7-26EE0557D2CC</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,9 +15,12 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>083277F6-2D69-42DE-892E-B40D09B84D28.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>20844802-69A9-4FFF-9CD7-26EE0557D2CC.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>nhanNhanHmm project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -27,15 +30,15 @@
 			<key>signature</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>timeStartedRecording</key>
-			<real>571834970.93502104</real>
+			<real>581465374.82656503</real>
 			<key>timeStoppedRecording</key>
-			<real>571834977.66170394</real>
+			<real>581465385.21745706</real>
 			<key>title</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>uniqueIdentifier</key>
-			<string>083277F6-2D69-42DE-892E-B40D09B84D28</string>
+			<string>20844802-69A9-4FFF-9CD7-26EE0557D2CC</string>
 		</dict>
-		<key>1476B6EE-2A7F-4215-8A6C-F73B518F57EF</key>
+		<key>408ED17C-0A28-4110-B8CA-F46DD33F5030</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -44,9 +47,12 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1476B6EE-2A7F-4215-8A6C-F73B518F57EF.xcactivitylog</string>
-			<key>highLevelStatus</key>
-			<string>S</string>
+			<string>408ED17C-0A28-4110-B8CA-F46DD33F5030.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>nhanNhanHmm project</string>
 			<key>schemeIdentifier-schemeName</key>
@@ -56,13 +62,45 @@
 			<key>signature</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>timeStartedRecording</key>
-			<real>571771093.22797799</real>
+			<real>581465331.59923196</real>
 			<key>timeStoppedRecording</key>
-			<real>571771098.42052102</real>
+			<real>581465336.19383395</real>
 			<key>title</key>
 			<string>Debug nhanNhanHmm</string>
 			<key>uniqueIdentifier</key>
-			<string>1476B6EE-2A7F-4215-8A6C-F73B518F57EF</string>
+			<string>408ED17C-0A28-4110-B8CA-F46DD33F5030</string>
+		</dict>
+		<key>DF9C7AEB-4348-4878-BD63-E30D18863542</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DF9C7AEB-4348-4878-BD63-E30D18863542.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>nhanNhanHmm project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>nhanNhanHmm</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug nhanNhanHmm</string>
+			<key>timeStartedRecording</key>
+			<real>581465385.02046394</real>
+			<key>timeStoppedRecording</key>
+			<real>581465412.18974304</real>
+			<key>title</key>
+			<string>Debug nhanNhanHmm</string>
+			<key>uniqueIdentifier</key>
+			<string>DF9C7AEB-4348-4878-BD63-E30D18863542</string>
 		</dict>
 	</dict>
 </dict>

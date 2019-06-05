@@ -17,8 +17,8 @@ void CreditsState::update()
 	
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		if (m_gameObjects[i] != nullptr)
-			m_gameObjects[i]->update();
+//        if (m_gameObjects[i] != nullptr)
+            m_gameObjects[i].update();
 	}
 }
 
@@ -29,7 +29,7 @@ void CreditsState::render()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->draw();
+        m_gameObjects[i].draw();
 	}
 }
 
@@ -43,11 +43,8 @@ bool CreditsState::onEnter()
 	if (!TheTextureManager::Instance()->load("assets/buttons/btnMainMenu.png", "btnMainMenu", TheGame::Instance()->getRenderer()))
 		return false;
 
-	GameObject* background = new CustomBackground(new LoaderParams(0, 0, 1024, 768, "background"));
-	GameObject* buttonMainMenu = new MenuButton(new LoaderParams(10, 10, 64, 64, "btnMainMenu"),s_creditsToMenu);
-
-	m_gameObjects.push_back(background);
-	m_gameObjects.push_back(buttonMainMenu);
+	m_gameObjects.push_back(CustomBackground(0, 0, 1024, 768, "background"));
+	m_gameObjects.push_back(MenuButton(10, 10, 64, 64, "btnMainMenu",s_creditsToMenu));
 
 
 	std::cout << "Loading buttons\n";
@@ -65,8 +62,8 @@ bool CreditsState::onExit()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->clean();
-		m_gameObjects[i] = nullptr;
+        m_gameObjects[i].clean();
+//        m_gameObjects[i] = nullptr;
 	}
 
 	m_gameObjects.clear();

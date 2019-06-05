@@ -1,7 +1,7 @@
 /**
 Main class of the project.
 Here you can seput the window config, the FPS of our game, etc.
-
+st
 @author Vladmir C. Souza
 */
 
@@ -47,7 +47,7 @@ int main(int argc, char* args[]) {
 				SDL_Delay((int)(DELAY_TIME - frameTime));
 			}
 
-			SDL_ShowCursor(SDL_DISABLE);
+			//SDL_ShowCursor(SDL_DISABLE);
 		}
 	}
 	else

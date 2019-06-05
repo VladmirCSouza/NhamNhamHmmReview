@@ -23,14 +23,13 @@ const std::string BLUE_ALIEN_ID = "alienBlueMainMenuID";
 
 void MenuState::update()
 {
-	if (!p_bIsInMainMenu || loading)
+	if (!p_bIsInMainMenu || loading || m_gameObjects.empty())
 		return;
-
-	for (int i = 0; i < m_gameObjects.size(); i++)
-	{
-		if (m_gameObjects[i] != nullptr)
-			m_gameObjects[i]->update();
-	}
+    
+    for (int i = 0; i < m_gameObjects.size(); i++)
+    {
+            m_gameObjects[i]->update();
+    }
 }
 
 void MenuState::render()
@@ -39,7 +38,7 @@ void MenuState::render()
 	{
 		for (int i = 0; i < m_gameObjects.size(); i++)
 		{
-			m_gameObjects[i]->draw();
+            m_gameObjects[i]->draw();
 		}
 	}
 }
@@ -66,19 +65,12 @@ bool MenuState::onEnter()
 		return false;
 	if (!TheTextureManager::Instance()->load("assets/Personas/alienBlueMainMenu.png", BLUE_ALIEN_ID, TheGame::Instance()->getRenderer()))
 		return false;
-
-	GameObject* background = new CustomBackground(new LoaderParams(0, 0, 1024, 768, BG_ID));
-	GameObject* buttonPlay = new MenuButton(new LoaderParams(386, 250, 64, 64, BTN_PLAY_ID), s_menuToPlay);
-	GameObject* buttonCred = new MenuButton(new LoaderParams(480, 250, 64, 64, BTN_CRED_ID), s_menuToCredits);
-	GameObject* buttonExit = new MenuButton(new LoaderParams(574, 250, 64, 64, BTN_EXIT_ID), s_exitFromMenu);
-	GameObject* alienBlue = new AlienMainMenu(new LoaderParams(448, 640, 64, 64, BLUE_ALIEN_ID));
-
-
-	m_gameObjects.push_back(background);
-	m_gameObjects.push_back(buttonPlay);
-	m_gameObjects.push_back(buttonCred);
-	m_gameObjects.push_back(buttonExit);
-	m_gameObjects.push_back(alienBlue);
+    
+    m_gameObjects.push_back(new CustomBackground(0, 0, 1024, 768, BG_ID));
+    m_gameObjects.push_back(new MenuButton(386, 250, 64, 64, BTN_PLAY_ID, s_menuToPlay));
+    m_gameObjects.push_back(new MenuButton(480, 250, 64, 64, BTN_CRED_ID, s_menuToCredits));
+    m_gameObjects.push_back(new MenuButton(574, 250, 64, 64, BTN_EXIT_ID, s_exitFromMenu));
+    m_gameObjects.push_back(new AlienMainMenu(448, 640, 64, 64, BLUE_ALIEN_ID));
 
 	loading = false;
 	std::cout << "entering MenuState\n";
@@ -97,7 +89,7 @@ bool MenuState::onExit()
 
 	for (int i = 0; i < m_gameObjects.size(); i++)
 	{
-		m_gameObjects[i]->clean();
+        delete m_gameObjects[i];
 	}
 
 	m_gameObjects.clear();

@@ -4,10 +4,10 @@
 #include "GameObject.h"
 #include "Vector2D.h"
 
-class SDLGameObject : public GameObject
+class SDLGameObject : GameObject
 {
 public:
-	SDLGameObject(const LoaderParams* pParams);
+	SDLGameObject(int x, int y, float width, float height, std::string textureID);
 	virtual void draw();
 	virtual void update();
 	virtual void clean();

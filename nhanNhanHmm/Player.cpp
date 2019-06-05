@@ -1,6 +1,7 @@
 #include "Player.h"
 
-Player::Player(const LoaderParams * pParams) : SDLGameObject(pParams)
+Player::Player(int x, int y, float width, float height, std::string textureID) :
+SDLGameObject( x, y, width, height, textureID)
 {
 	m_currentFrame = 0;
 }

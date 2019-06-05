@@ -5,9 +5,10 @@
 class CustomBackground : public SDLGameObject
 {
 public:
-	CustomBackground(const LoaderParams* pParams);
-	virtual void draw();
-	virtual void clean();
+	CustomBackground(int x, int y, float width, float height, std::string textureID);
+    void draw() override;
+    void clean() override;
+    void update() override;
 };
 
 #endif

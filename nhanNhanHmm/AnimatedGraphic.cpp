@@ -6,7 +6,8 @@ Class used to manage NPCs that are just animated and don't move.
 
 #include "AnimatedGraphic.h"
 
-AnimatedGraphic::AnimatedGraphic(const LoaderParams * pParams, int animSpeed, int numFrames) :SDLGameObject(pParams), m_animSpeed(animSpeed), m_numFrames(numFrames)
+AnimatedGraphic::AnimatedGraphic(int x, int y, float width, float height, std::string textureID, int animSpeed, int numFrames) :
+SDLGameObject( x, y, width, height, textureID), m_animSpeed(animSpeed), m_numFrames(numFrames)
 {
 }
 

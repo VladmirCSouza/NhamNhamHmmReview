@@ -6,13 +6,14 @@ class AlienMainMenu :
 	public SDLGameObject
 {
 public:
-	AlienMainMenu(const LoaderParams* pParams);
+	AlienMainMenu(int x, int y, float width, float height, std::string textureID);
 	virtual void draw();
 	virtual void update();
-	virtual void clean();
+    virtual void clean();
+    
+    ~AlienMainMenu();
 
 private:
-	~AlienMainMenu();
 
 	enum alienState
 	{

@@ -11,18 +11,14 @@
 		9606935322147EB70091E7F0 /* AnimatedGraphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606931F22147EB50091E7F0 /* AnimatedGraphic.cpp */; };
 		9606935422147EB70091E7F0 /* AlienMainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932122147EB50091E7F0 /* AlienMainMenu.cpp */; };
 		9606935522147EB70091E7F0 /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932322147EB50091E7F0 /* Enemy.cpp */; };
-		9606935622147EB70091E7F0 /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932422147EB50091E7F0 /* GameState.cpp */; };
-		9606935722147EB70091E7F0 /* Vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932522147EB50091E7F0 /* Vector2D.cpp */; };
 		9606935822147EB70091E7F0 /* GameStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932B22147EB50091E7F0 /* GameStateMachine.cpp */; };
 		9606935922147EB70091E7F0 /* GameOverState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932C22147EB50091E7F0 /* GameOverState.cpp */; };
-		9606935A22147EB70091E7F0 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606932D22147EB50091E7F0 /* GameObject.cpp */; };
 		9606935B22147EB70091E7F0 /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933022147EB50091E7F0 /* TextureManager.cpp */; };
 		9606935C22147EB70091E7F0 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933122147EB50091E7F0 /* Player.cpp */; };
 		9606935D22147EB70091E7F0 /* PlayState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933422147EB50091E7F0 /* PlayState.cpp */; };
 		9606935E22147EB70091E7F0 /* MenuButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933622147EB60091E7F0 /* MenuButton.cpp */; };
 		9606935F22147EB70091E7F0 /* CreditsState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933822147EB60091E7F0 /* CreditsState.cpp */; };
 		9606936022147EB70091E7F0 /* MenuState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933922147EB60091E7F0 /* MenuState.cpp */; };
-		9606936122147EB70091E7F0 /* LoaderParams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933A22147EB60091E7F0 /* LoaderParams.cpp */; };
 		9606936222147EB70091E7F0 /* CustomBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933D22147EB60091E7F0 /* CustomBackground.cpp */; };
 		9606936322147EB70091E7F0 /* CustomCursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606933E22147EB60091E7F0 /* CustomCursor.cpp */; };
 		9606936422147EB70091E7F0 /* SoundManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9606934022147EB60091E7F0 /* SoundManager.cpp */; };
@@ -43,7 +39,7 @@
 		9606931022147E210091E7F0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -59,16 +55,12 @@
 		9606932122147EB50091E7F0 /* AlienMainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlienMainMenu.cpp; sourceTree = "<group>"; };
 		9606932222147EB50091E7F0 /* AlienMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlienMainMenu.h; sourceTree = "<group>"; };
 		9606932322147EB50091E7F0 /* Enemy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
-		9606932422147EB50091E7F0 /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
-		9606932522147EB50091E7F0 /* Vector2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector2D.cpp; sourceTree = "<group>"; };
 		9606932622147EB50091E7F0 /* PauseState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseState.h; sourceTree = "<group>"; };
 		9606932722147EB50091E7F0 /* InputHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
-		9606932822147EB50091E7F0 /* LoaderParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderParams.h; sourceTree = "<group>"; };
 		9606932922147EB50091E7F0 /* Vector2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2D.h; sourceTree = "<group>"; };
 		9606932A22147EB50091E7F0 /* GameOverState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverState.h; sourceTree = "<group>"; };
 		9606932B22147EB50091E7F0 /* GameStateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateMachine.cpp; sourceTree = "<group>"; };
 		9606932C22147EB50091E7F0 /* GameOverState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverState.cpp; sourceTree = "<group>"; };
-		9606932D22147EB50091E7F0 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
 		9606932E22147EB50091E7F0 /* AnimatedGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedGraphic.h; sourceTree = "<group>"; };
 		9606932F22147EB50091E7F0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		9606933022147EB50091E7F0 /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
@@ -81,7 +73,6 @@
 		9606933722147EB60091E7F0 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		9606933822147EB60091E7F0 /* CreditsState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CreditsState.cpp; sourceTree = "<group>"; };
 		9606933922147EB60091E7F0 /* MenuState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuState.cpp; sourceTree = "<group>"; };
-		9606933A22147EB60091E7F0 /* LoaderParams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoaderParams.cpp; sourceTree = "<group>"; };
 		9606933B22147EB60091E7F0 /* CustomCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCursor.h; sourceTree = "<group>"; };
 		9606933C22147EB60091E7F0 /* MenuState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuState.h; sourceTree = "<group>"; };
 		9606933D22147EB60091E7F0 /* CustomBackground.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomBackground.cpp; sourceTree = "<group>"; };
@@ -166,11 +157,9 @@
 				9606934122147EB60091E7F0 /* Enemy.h */,
 				9606935122147EB70091E7F0 /* Game.cpp */,
 				9606933722147EB60091E7F0 /* Game.h */,
-				9606932D22147EB50091E7F0 /* GameObject.cpp */,
 				9606935022147EB70091E7F0 /* GameObject.h */,
 				9606932C22147EB50091E7F0 /* GameOverState.cpp */,
 				9606932A22147EB50091E7F0 /* GameOverState.h */,
-				9606932422147EB50091E7F0 /* GameState.cpp */,
 				9606933522147EB60091E7F0 /* GameState.h */,
 				9606932B22147EB50091E7F0 /* GameStateMachine.cpp */,
 				9606934F22147EB70091E7F0 /* GameStateMachine.h */,
@@ -178,8 +167,6 @@
 				9606934A22147EB70091E7F0 /* HUDMeters.h */,
 				9606934C22147EB70091E7F0 /* InputHandler.cpp */,
 				9606932722147EB50091E7F0 /* InputHandler.h */,
-				9606933A22147EB60091E7F0 /* LoaderParams.cpp */,
-				9606932822147EB50091E7F0 /* LoaderParams.h */,
 				9606934422147EB60091E7F0 /* main.cpp */,
 				9606933622147EB60091E7F0 /* MenuButton.cpp */,
 				9606934B22147EB70091E7F0 /* MenuButton.h */,
@@ -198,7 +185,6 @@
 				9606934D22147EB70091E7F0 /* SoundManager.h */,
 				9606933022147EB50091E7F0 /* TextureManager.cpp */,
 				9606934E22147EB70091E7F0 /* TextureManager.h */,
-				9606932522147EB50091E7F0 /* Vector2D.cpp */,
 				9606932922147EB50091E7F0 /* Vector2D.h */,
 			);
 			path = nhanNhanHmm;
@@ -274,9 +260,7 @@
 				9606936222147EB70091E7F0 /* CustomBackground.cpp in Sources */,
 				9606936422147EB70091E7F0 /* SoundManager.cpp in Sources */,
 				9606936322147EB70091E7F0 /* CustomCursor.cpp in Sources */,
-				9606935A22147EB70091E7F0 /* GameObject.cpp in Sources */,
 				9606935522147EB70091E7F0 /* Enemy.cpp in Sources */,
-				9606935622147EB70091E7F0 /* GameState.cpp in Sources */,
 				9606935322147EB70091E7F0 /* AnimatedGraphic.cpp in Sources */,
 				9606936C22147EB70091E7F0 /* Game.cpp in Sources */,
 				9606935E22147EB70091E7F0 /* MenuButton.cpp in Sources */,
@@ -289,11 +273,9 @@
 				9606936022147EB70091E7F0 /* MenuState.cpp in Sources */,
 				9606936922147EB70091E7F0 /* SDLGameObject.cpp in Sources */,
 				9606935C22147EB70091E7F0 /* Player.cpp in Sources */,
-				9606936122147EB70091E7F0 /* LoaderParams.cpp in Sources */,
 				9606935822147EB70091E7F0 /* GameStateMachine.cpp in Sources */,
 				9606935B22147EB70091E7F0 /* TextureManager.cpp in Sources */,
 				9606936822147EB70091E7F0 /* Alien.cpp in Sources */,
-				9606935722147EB70091E7F0 /* Vector2D.cpp in Sources */,
 				9606935422147EB70091E7F0 /* AlienMainMenu.cpp in Sources */,
 				9606935922147EB70091E7F0 /* GameOverState.cpp in Sources */,
 				9606935F22147EB70091E7F0 /* CreditsState.cpp in Sources */,

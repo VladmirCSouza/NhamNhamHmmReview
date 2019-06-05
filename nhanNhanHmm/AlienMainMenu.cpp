@@ -2,7 +2,8 @@
 #include "InputHandler.h"
 #include "Vector2D.h"
 
-AlienMainMenu::AlienMainMenu(const LoaderParams * pParams) :SDLGameObject(pParams)
+AlienMainMenu::AlienMainMenu(int x, int y, float width, float height, std::string textureID) :
+SDLGameObject( x, y, width, height,textureID)
 {
 	m_currentFrame = 0;
 	m_currentRow = 1;

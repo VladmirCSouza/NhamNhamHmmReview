@@ -51,8 +51,7 @@ dependencies: \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Game.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/TextureManager.h \
   /Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h \
-  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameObject.h \
-  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Enemy.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/SDLGameObject.h \
+  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Enemy.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameStateMachine.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameState.h

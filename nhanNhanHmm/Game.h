@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "TextureManager.h"
-#include "GameObject.h"
+#include "SDLGameObject.h"
 #include "Enemy.h"
 #include "GameStateMachine.h"
 
@@ -42,11 +42,11 @@ private:
 
 	bool m_bRunning;
 
-	GameObject* m_go;
-	GameObject* m_box;
-	GameObject* m_enemy;
+    SDLGameObject* m_go;
+    SDLGameObject* m_box;
+    SDLGameObject* m_enemy;
 
-	std::vector<GameObject*> m_gameObjects;
+	std::vector<SDLGameObject*> m_gameObjects;
 
 	static Game* s_pInstance;
 

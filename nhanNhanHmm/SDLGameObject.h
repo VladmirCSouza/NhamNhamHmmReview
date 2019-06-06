@@ -1,14 +1,15 @@
 #ifndef __SDLGameObject__
 #define __SDLGameObject__
 
-#include "GameObject.h"
+#include <SDL2/SDL.h>
+#include "TextureManager.h"
 #include "Vector2D.h"
 
-class SDLGameObject : GameObject
+class SDLGameObject
 {
 public:
 	SDLGameObject(int x, int y, float width, float height, std::string textureID);
-	virtual void draw();
+    virtual void draw();
 	virtual void update();
 	virtual void clean();
 

@@ -118,6 +118,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A923ACA22A9B87D00C5CAC8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9606934222147EB60091E7F0 /* HUDMeters.cpp */,
+				9606934A22147EB70091E7F0 /* HUDMeters.h */,
+				9606934922147EB70091E7F0 /* AlienMap.cpp */,
+				9606932022147EB50091E7F0 /* AlienMap.h */,
+				9606933622147EB60091E7F0 /* MenuButton.cpp */,
+				9606934B22147EB70091E7F0 /* MenuButton.h */,
+				9606933D22147EB60091E7F0 /* CustomBackground.cpp */,
+				9606934522147EB60091E7F0 /* CustomBackground.h */,
+				9606933E22147EB60091E7F0 /* CustomCursor.cpp */,
+				9606933B22147EB60091E7F0 /* CustomCursor.h */,
+				9606931F22147EB50091E7F0 /* AnimatedGraphic.cpp */,
+				9606932E22147EB50091E7F0 /* AnimatedGraphic.h */,
+				9606934C22147EB70091E7F0 /* InputHandler.cpp */,
+				9606932722147EB50091E7F0 /* InputHandler.h */,
+				9606933222147EB50091E7F0 /* Node.h */,
+				9606934822147EB70091E7F0 /* SDLGameObject.cpp */,
+				9606933F22147EB60091E7F0 /* SDLGameObject.h */,
+				9606932922147EB50091E7F0 /* Vector2D.h */,
+				9606935122147EB70091E7F0 /* Game.cpp */,
+				9606933722147EB60091E7F0 /* Game.h */,
+				9606935022147EB70091E7F0 /* GameObject.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		7A923ACC22A9B8DE00C5CAC8 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9606934022147EB60091E7F0 /* SoundManager.cpp */,
+				9606934D22147EB70091E7F0 /* SoundManager.h */,
+				9606933022147EB50091E7F0 /* TextureManager.cpp */,
+				9606934E22147EB70091E7F0 /* TextureManager.h */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		7A923ACD22A9B91E00C5CAC8 /* Personas */ = {
+			isa = PBXGroup;
+			children = (
+				9606934722147EB60091E7F0 /* Alien.cpp */,
+				9606935222147EB70091E7F0 /* Alien.h */,
+				9606932122147EB50091E7F0 /* AlienMainMenu.cpp */,
+				9606932222147EB50091E7F0 /* AlienMainMenu.h */,
+				9606932322147EB50091E7F0 /* Enemy.cpp */,
+				9606934122147EB60091E7F0 /* Enemy.h */,
+				9606933122147EB50091E7F0 /* Player.cpp */,
+				9606932F22147EB50091E7F0 /* Player.h */,
+			);
+			name = Personas;
+			sourceTree = "<group>";
+		};
+		7A923ACE22A9B94B00C5CAC8 /* StatesControl */ = {
+			isa = PBXGroup;
+			children = (
+				9606933822147EB60091E7F0 /* CreditsState.cpp */,
+				9606934622147EB60091E7F0 /* CreditsState.h */,
+				9606932C22147EB50091E7F0 /* GameOverState.cpp */,
+				9606932A22147EB50091E7F0 /* GameOverState.h */,
+				9606933522147EB60091E7F0 /* GameState.h */,
+				9606932B22147EB50091E7F0 /* GameStateMachine.cpp */,
+				9606934F22147EB70091E7F0 /* GameStateMachine.h */,
+				9606933922147EB60091E7F0 /* MenuState.cpp */,
+				9606933C22147EB60091E7F0 /* MenuState.h */,
+				9606934322147EB60091E7F0 /* PauseState.cpp */,
+				9606932622147EB50091E7F0 /* PauseState.h */,
+				9606933422147EB50091E7F0 /* PlayState.cpp */,
+				9606933322147EB50091E7F0 /* PlayState.h */,
+			);
+			name = StatesControl;
+			sourceTree = "<group>";
+		};
 		9606930922147E210091E7F0 = {
 			isa = PBXGroup;
 			children = (
@@ -139,53 +213,11 @@
 		9606931422147E210091E7F0 /* nhanNhanHmm */ = {
 			isa = PBXGroup;
 			children = (
-				9606934722147EB60091E7F0 /* Alien.cpp */,
-				9606935222147EB70091E7F0 /* Alien.h */,
-				9606932122147EB50091E7F0 /* AlienMainMenu.cpp */,
-				9606932222147EB50091E7F0 /* AlienMainMenu.h */,
-				9606934922147EB70091E7F0 /* AlienMap.cpp */,
-				9606932022147EB50091E7F0 /* AlienMap.h */,
-				9606931F22147EB50091E7F0 /* AnimatedGraphic.cpp */,
-				9606932E22147EB50091E7F0 /* AnimatedGraphic.h */,
-				9606933822147EB60091E7F0 /* CreditsState.cpp */,
-				9606934622147EB60091E7F0 /* CreditsState.h */,
-				9606933D22147EB60091E7F0 /* CustomBackground.cpp */,
-				9606934522147EB60091E7F0 /* CustomBackground.h */,
-				9606933E22147EB60091E7F0 /* CustomCursor.cpp */,
-				9606933B22147EB60091E7F0 /* CustomCursor.h */,
-				9606932322147EB50091E7F0 /* Enemy.cpp */,
-				9606934122147EB60091E7F0 /* Enemy.h */,
-				9606935122147EB70091E7F0 /* Game.cpp */,
-				9606933722147EB60091E7F0 /* Game.h */,
-				9606935022147EB70091E7F0 /* GameObject.h */,
-				9606932C22147EB50091E7F0 /* GameOverState.cpp */,
-				9606932A22147EB50091E7F0 /* GameOverState.h */,
-				9606933522147EB60091E7F0 /* GameState.h */,
-				9606932B22147EB50091E7F0 /* GameStateMachine.cpp */,
-				9606934F22147EB70091E7F0 /* GameStateMachine.h */,
-				9606934222147EB60091E7F0 /* HUDMeters.cpp */,
-				9606934A22147EB70091E7F0 /* HUDMeters.h */,
-				9606934C22147EB70091E7F0 /* InputHandler.cpp */,
-				9606932722147EB50091E7F0 /* InputHandler.h */,
+				7A923ACE22A9B94B00C5CAC8 /* StatesControl */,
+				7A923ACD22A9B91E00C5CAC8 /* Personas */,
+				7A923ACC22A9B8DE00C5CAC8 /* Managers */,
+				7A923ACA22A9B87D00C5CAC8 /* Core */,
 				9606934422147EB60091E7F0 /* main.cpp */,
-				9606933622147EB60091E7F0 /* MenuButton.cpp */,
-				9606934B22147EB70091E7F0 /* MenuButton.h */,
-				9606933922147EB60091E7F0 /* MenuState.cpp */,
-				9606933C22147EB60091E7F0 /* MenuState.h */,
-				9606933222147EB50091E7F0 /* Node.h */,
-				9606934322147EB60091E7F0 /* PauseState.cpp */,
-				9606932622147EB50091E7F0 /* PauseState.h */,
-				9606933122147EB50091E7F0 /* Player.cpp */,
-				9606932F22147EB50091E7F0 /* Player.h */,
-				9606933422147EB50091E7F0 /* PlayState.cpp */,
-				9606933322147EB50091E7F0 /* PlayState.h */,
-				9606934822147EB70091E7F0 /* SDLGameObject.cpp */,
-				9606933F22147EB60091E7F0 /* SDLGameObject.h */,
-				9606934022147EB60091E7F0 /* SoundManager.cpp */,
-				9606934D22147EB70091E7F0 /* SoundManager.h */,
-				9606933022147EB50091E7F0 /* TextureManager.cpp */,
-				9606934E22147EB70091E7F0 /* TextureManager.h */,
-				9606932922147EB50091E7F0 /* Vector2D.h */,
 			);
 			path = nhanNhanHmm;
 			sourceTree = "<group>";

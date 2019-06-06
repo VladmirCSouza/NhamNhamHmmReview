@@ -11,7 +11,7 @@ public:
 	static CustomCursor* Instance() {
 		if (s_pInstance == 0) {
             if (!TheTextureManager::Instance()->load("assets/cursor/cursor.png", "customcursor", TheGame::Instance()->getRenderer())) {
-//                return NULL;
+                return NULL;
             }
 			s_pInstance = new CustomCursor(0, 0, 20, 27, "customcursor");
 			s_pInstance->m_currentFrame = 0;
@@ -19,17 +19,17 @@ public:
 
 		return s_pInstance;
 	}
+    
+    CustomCursor(int x, int y, float width, float height, std::string textureID) :
+    SDLGameObject( x, y, width, height, textureID) {};
 
-	virtual void draw();
-	virtual void update();
-	virtual void clean();
+	void draw() override;
+    void update() override;
+	void clean() override;
 
 	void setFrame(int frame);
 
 private:
-    CustomCursor(int x, int y, float width, float height, std::string textureID) :
-                 SDLGameObject( x, y, width, height, textureID) {};
-
 	void handleInput();
 
 	static CustomCursor* s_pInstance;

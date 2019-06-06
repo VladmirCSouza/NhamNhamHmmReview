@@ -61,7 +61,7 @@ bool Game::init(const char* title, int xpos, int ypos, int height, int width, bo
 	m_pGameStateMachine = new GameStateMachine();
 	m_pGameStateMachine->changeState(new MenuState());
 	
-//    m_gameObjects.push_back(TheCustomCursor::Instance());
+    m_gameObjects.push_back(TheCustomCursor::Instance());
 
 	TheSoundManager::Instance()->load("assets/audio/bgMenu.wav", "bgMenu", SOUND_MUSIC);
 	TheSoundManager::Instance()->load("assets/audio/btnClick.wav", "btnClick", SOUND_SFX);
@@ -77,8 +77,8 @@ Game's main loop
 void Game::update() {
 	m_pGameStateMachine->update();
 
-	for (std::vector<GameObject*>::size_type i = 0; i != m_gameObjects.size(); i++)
-		m_gameObjects[i]->update();
+    for (std::vector<SDLGameObject*>::size_type i = 0; i != m_gameObjects.size(); i++)
+        m_gameObjects[i]->update();
 }
 
 /**
@@ -89,8 +89,8 @@ void Game::render() {
 
 	m_pGameStateMachine->render();
 
-	for (std::vector<GameObject*>::size_type i = 0; i != m_gameObjects.size(); i++)
-		m_gameObjects[i]->draw();
+    for (std::vector<SDLGameObject*>::size_type i = 0; i != m_gameObjects.size(); i++)
+        m_gameObjects[i]->draw();
 
 	SDL_RenderPresent(m_pRenderer);
 }

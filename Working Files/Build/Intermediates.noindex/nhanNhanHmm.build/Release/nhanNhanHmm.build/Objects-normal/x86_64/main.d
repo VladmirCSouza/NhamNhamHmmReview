@@ -49,9 +49,8 @@ dependencies: \
   /Library/Frameworks/SDL2.framework/Headers/SDL_version.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/TextureManager.h \
   /Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h \
-  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameObject.h \
-  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Enemy.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/SDLGameObject.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Vector2D.h \
+  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/Enemy.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameStateMachine.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameState.h

@@ -1,5 +1,4 @@
-#ifndef __Alien__
-#define __Alien__
+#pragma once
 
 #include "SDLGameObject.h"
 
@@ -65,5 +64,3 @@ private:
 	void changeIdleEyes(Vector2D* mousePos);
 	void eyeDirection(eye_direction direction);
 };
-
-#endif

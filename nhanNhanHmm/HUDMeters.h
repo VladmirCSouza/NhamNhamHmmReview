@@ -1,5 +1,4 @@
-#ifndef __HUDMeters__
-#define __HUDMeters__
+#pragma once
 
 #include "SDLGameObject.h"
 class HUDMeters : public SDLGameObject
@@ -11,5 +10,3 @@ public:
 
 	void setWidth(int value);
 };
-
-#endif

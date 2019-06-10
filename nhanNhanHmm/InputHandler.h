@@ -1,5 +1,4 @@
-#ifndef __InputHandler__
-#define __InputHandler__
+#pragma once
 
 #include <SDL2/SDL.h>
 #include <vector>
@@ -57,5 +56,3 @@ private:
 	void onMouseButtonUp(SDL_Event& event);
 };
 typedef InputHandler TheInputHandler;
-
-#endif

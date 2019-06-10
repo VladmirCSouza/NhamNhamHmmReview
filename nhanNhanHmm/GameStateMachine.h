@@ -1,5 +1,4 @@
-#ifndef __GameStateMachine__
-#define __GameStateMachine__
+#pragma once
 
 #include "GameState.h"
 #include <vector>
@@ -19,5 +18,3 @@ public:
 private:
 	std::vector<GameState*> m_gameStates;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef __AlienMap__
-#define __AlienMap__
+#pragma once
 
 #include <iostream>
 #include <vector>
@@ -56,5 +55,3 @@ private:
 };
 
 typedef AlienMap TheAlienMap;
-
-#endif

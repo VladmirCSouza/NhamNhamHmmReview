@@ -60,6 +60,8 @@ void InputHandler::update()
 
 void InputHandler::clean()
 {
+    s_pInstance = nullptr;
+    delete s_pInstance;
 }
 
 void InputHandler::onMouseMove(SDL_Event & event)

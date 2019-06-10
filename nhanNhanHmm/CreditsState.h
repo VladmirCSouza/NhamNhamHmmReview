@@ -1,5 +1,4 @@
-#ifndef __CreditsState__
-#define __CreditsState__
+#pragma once
 
 #include "GameState.h"
 #include "SDLGameObject.h"
@@ -29,5 +28,3 @@ private:
 	bool p_bIsInCredits;
 	bool loading = false;
 };
-
-#endif

@@ -2,6 +2,7 @@
 #include "InputHandler.h"
 
 CustomCursor* CustomCursor::s_pInstance = 0;
+int CustomCursor::refCounter = 0;
 
 void CustomCursor::draw()
 {
@@ -15,8 +16,11 @@ void CustomCursor::update()
 
 void CustomCursor::clean()
 {
-    s_pInstance = nullptr;
-    delete s_pInstance;
+    removeRef();
+    if ((0==refCounter) && (s_pInstance != nullptr)) {
+        delete s_pInstance;
+        s_pInstance = nullptr;
+    }
 	SDLGameObject::clean();
 }
 

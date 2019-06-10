@@ -1,5 +1,4 @@
-#ifndef __Enemy__
-#define __Enemy__
+#pragma once
 
 #include "SDLGameObject.h"
 
@@ -14,5 +13,3 @@ public:
 private:
 	void handleInput();
 };
-#endif
-

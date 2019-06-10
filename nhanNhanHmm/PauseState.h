@@ -1,5 +1,4 @@
-#ifndef __PauseState__
-#define __PauseState__
+#pragma once
 
 #include "GameState.h"
 #include "SDLGameObject.h"
@@ -30,5 +29,3 @@ private:
 	bool p_bIsInPause;
 	bool loading;
 };
-
-#endif

@@ -1,5 +1,4 @@
-#ifndef __CustomBackground__
-#define __CustomBackground__
+#pragma once
 
 #include "SDLGameObject.h"
 class CustomBackground : public SDLGameObject
@@ -10,5 +9,3 @@ public:
     void clean() override;
     void update() override;
 };
-
-#endif

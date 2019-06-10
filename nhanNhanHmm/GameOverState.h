@@ -1,5 +1,4 @@
-#ifndef __GameOverState__
-#define __GameOverState__
+#pragma once
 
 #include "GameState.h"
 #include "SDLGameObject.h"
@@ -29,5 +28,3 @@ private:
 	bool p_bIsInGameOverState;
 	bool loading = false;
 };
-
-#endif

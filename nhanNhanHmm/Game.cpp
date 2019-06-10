@@ -58,15 +58,15 @@ bool Game::init(const char* title, int xpos, int ypos, int height, int width, bo
 	m_bRunning = true;
 
 
-	m_pGameStateMachine = new GameStateMachine();
-	m_pGameStateMachine->changeState(new MenuState());
+    m_pGameStateMachine = new GameStateMachine();
+    m_pGameStateMachine->changeState(new MenuState());
 	
-    m_gameObjects.push_back(TheCustomCursor::Instance());
+//    m_gameObjects.push_back(TheCustomCursor::Instance());
 
-	TheSoundManager::Instance()->load("assets/audio/bgMenu.wav", "bgMenu", SOUND_MUSIC);
-	TheSoundManager::Instance()->load("assets/audio/btnClick.wav", "btnClick", SOUND_SFX);
+//    TheSoundManager::Instance()->load("assets/audio/bgMenu.wav", "bgMenu", SOUND_MUSIC);
+//    TheSoundManager::Instance()->load("assets/audio/btnClick.wav", "btnClick", SOUND_SFX);
 
-	TheSoundManager::Instance()->playMusic("bgMenu", -1);
+//    TheSoundManager::Instance()->playMusic("bgMenu", -1);
 
 	return true;
 }
@@ -108,7 +108,13 @@ Clean up the memory. Destroy the window, the render and also call the SDL_Quit
 void Game::clean() {
 	std::cout << "cleaning the game\n";
 	
-	TheInputHandler::Instance()->update();
+	TheInputHandler::Instance()->clean();
+    
+    delete m_pGameStateMachine;
+    m_pGameStateMachine = nullptr;
+    
+    for(auto& gameObject : m_gameObjects)
+        gameObject->clean();
 
 	SDL_DestroyWindow(m_pWindow);
 	SDL_DestroyRenderer(m_pRenderer);

@@ -2,7 +2,6 @@ dependencies: \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/MenuButton.cpp \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/MenuButton.h \
   /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/SDLGameObject.h \
-  /Users/vladmir.csouza/Projects/NhamNhamHmm/NhamNhamHmmReview/nhanNhanHmm/GameObject.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_main.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_stdinc.h \

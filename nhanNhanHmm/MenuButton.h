@@ -1,5 +1,4 @@
-#ifndef __MenuButton__
-#define __MenuButton__
+#pragma once
 
 #include "SDLGameObject.h"
 class MenuButton : public SDLGameObject
@@ -24,5 +23,3 @@ private:
 	bool m_bReleased;
 	bool m_mouseIsOver = false;
 };
-
-#endif

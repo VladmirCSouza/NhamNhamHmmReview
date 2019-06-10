@@ -1,5 +1,4 @@
-#ifndef __Node__
-#define __Node__
+#pragma once
 
 class Node
 {
@@ -11,4 +10,3 @@ public:
 		int col;
 	};
 };
-#endif

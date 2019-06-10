@@ -1,5 +1,4 @@
-#ifndef __PlayState__
-#define __PlayState__
+#pragma once
 
 #include "GameState.h"
 #include "SDLGameObject.h"
@@ -67,5 +66,3 @@ private:
 	int p_currentSelectionType = 0;
 	static void s_playToPause();
 };
-
-#endif

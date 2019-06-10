@@ -1,5 +1,4 @@
-#ifndef __Game__
-#define __Game__
+#pragma once
 
 #include <SDL2/SDL.h>
 #include <iostream>
@@ -54,5 +53,3 @@ private:
 };
 
 typedef Game TheGame;
-
-#endif

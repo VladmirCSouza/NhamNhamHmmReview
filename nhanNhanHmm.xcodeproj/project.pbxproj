@@ -94,7 +94,6 @@
 		9606934D22147EB70091E7F0 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
 		9606934E22147EB70091E7F0 /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
 		9606934F22147EB70091E7F0 /* GameStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateMachine.h; sourceTree = "<group>"; };
-		9606935022147EB70091E7F0 /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
 		9606935122147EB70091E7F0 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
 		9606935222147EB70091E7F0 /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alien.h; sourceTree = "<group>"; };
 		9606936D221481910091E7F0 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
@@ -141,7 +140,6 @@
 				9606932922147EB50091E7F0 /* Vector2D.h */,
 				9606935122147EB70091E7F0 /* Game.cpp */,
 				9606933722147EB60091E7F0 /* Game.h */,
-				9606935022147EB70091E7F0 /* GameObject.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";

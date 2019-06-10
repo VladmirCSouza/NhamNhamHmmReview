@@ -1,5 +1,4 @@
-#ifndef __TextureManager__
-#define __TextureManager__
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -40,5 +39,3 @@ private:
 };
 
 typedef TextureManager TheTextureManager;
-
-#endif 

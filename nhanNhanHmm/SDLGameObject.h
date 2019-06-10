@@ -1,5 +1,4 @@
-#ifndef __SDLGameObject__
-#define __SDLGameObject__
+#pragma once
 
 #include <SDL2/SDL.h>
 #include "TextureManager.h"
@@ -28,5 +27,3 @@ protected:
 
 	std::string m_textureID;
 };
-
-#endif

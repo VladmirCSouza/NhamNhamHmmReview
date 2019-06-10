@@ -87,9 +87,9 @@ bool MenuState::onExit()
 	TheTextureManager::Instance()->clearFromTextureMap(BTN_EXIT_ID);
 	TheTextureManager::Instance()->clearFromTextureMap(BLUE_ALIEN_ID);
 
-	for (int i = 0; i < m_gameObjects.size(); i++)
+    for (auto& gameObject : m_gameObjects)
 	{
-        delete m_gameObjects[i];
+        delete gameObject;
 	}
 
 	m_gameObjects.clear();

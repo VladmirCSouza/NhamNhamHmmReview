@@ -1,5 +1,4 @@
-#ifndef __Player__
-#define __Player__
+#pragma once
 
 #include "SDLGameObject.h"
 class Player : public SDLGameObject
@@ -11,5 +10,3 @@ public:
 	virtual void update();
 	virtual void clean();
 };
-
-#endif

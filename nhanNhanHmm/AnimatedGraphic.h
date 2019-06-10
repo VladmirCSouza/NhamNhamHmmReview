@@ -1,5 +1,4 @@
-#ifndef __AnimatedGraphic__
-#define __AnimatedGraphic__
+#pragma once
 
 #include "SDLGameObject.h"
 class AnimatedGraphic : public SDLGameObject
@@ -14,5 +13,3 @@ private:
 	int m_animSpeed;
 	int m_numFrames;
 };
-
-#endif

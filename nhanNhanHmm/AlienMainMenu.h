@@ -1,5 +1,4 @@
-#ifndef __AlienMainMenu__
-#define __AlienMainMenu__
+#pragma once
 
 #include "SDLGameObject.h"
 class AlienMainMenu :
@@ -40,5 +39,3 @@ private:
 
 	int delay = 0;
 };
-
-#endif

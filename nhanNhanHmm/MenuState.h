@@ -1,5 +1,4 @@
-#ifndef __MenuState__
-#define __MenuState__
+#pragma once
 
 #include "GameState.h"
 #include "SDLGameObject.h"
@@ -10,13 +9,12 @@
 class MenuState : public GameState
 {
 public:
-	virtual void update();
-	virtual void render();
+    void update() override;
+    void render() override;
+	bool onEnter() override;
+    bool onExit() override;
 
-	virtual bool onEnter();
-	virtual bool onExit();
-
-	virtual std::string getStateID() const { return s_menuID; }
+	std::string getStateID() const override { return s_menuID; }
 
 private:
 	static const std::string s_menuID;
@@ -31,5 +29,3 @@ private:
 	bool p_bIsInMainMenu;
 	bool loading;
 };
-
-#endif

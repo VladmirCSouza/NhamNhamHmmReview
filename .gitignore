@@ -910,3 +910,8 @@ _deps
 *.exe
 *.out
 *.app
+
+# Custom folders
+DerivedData/
+Working Files/
+Working Folder/
